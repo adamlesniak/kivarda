@@ -1,14 +1,15 @@
 {
-  "name": "spens",
-  "version": "1.0.0",
-  "description": "Convert bank statements with tags onto charts and easily accessible metrics.",
+  "name": "kivarda",
+  "version": "0.1.0",
+  "description": "Parse text block onto tokens, stemmed tokens and annotations.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/adamlesniak/spens",
+  "repository": "https://github.com/adamlesniak/kivarda",
   "license": "MIT",
   "keywords": [],
   "scripts": {
+    "cli-dev": "tsx ./src/cli.ts",
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
@@ -17,7 +18,6 @@
     "fix:lint": "eslint src --ext .ts --fix",
     "test": "run-s build test:*",
     "test:lint": "eslint src --ext .ts",
-    "test:prettier": "prettier \"src/**/*.ts\" --list-different",
     "test:spelling": "cspell \"{README.md,.github/*.md,src/**/*.ts}\"",
     "test:unit": "nyc --silent ava",
     "check-cli": "run-s test diff-integration-tests check-integration-tests",
@@ -42,7 +42,8 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@bitauth/libauth": "^1.17.1"
+    "commander": "^12.0.0",
+    "yaml": "^2.4.1"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
@@ -65,6 +66,7 @@
     "prettier": "^2.1.1",
     "standard-version": "^9.0.0",
     "ts-node": "^9.0.0",
+    "tsx": "^4.7.1",
     "typedoc": "^0.19.0",
     "typescript": "^4.0.2"
   },

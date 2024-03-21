@@ -1,3 +1,3 @@
-# spens
+# kivarda
 
-Convert bank statements with tags onto charts and easily accessible metrics.
+Parse text block onto tokens, stemmed tokens and annotations.

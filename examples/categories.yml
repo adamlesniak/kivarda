@@ -1,0 +1,103 @@
+Configuration:
+  Categories:
+    - label: "grocery"
+      keywords:
+        [
+          "store",
+          "grocery",
+          "supermarket",
+          "food",
+          "shop",
+          "shipping",
+          "delivery",
+          "vegetables",
+          "fruits",
+          "produce",
+          "convenience",
+        ]
+    - label: "mobile"
+      keywords:
+        [
+          "smartphones",
+          "broadband",
+          "bill pay",
+          "phones",
+          "pay as you go",
+          "mobile",
+        ]
+    - label: "commute"
+      keywords:
+        [
+          "bus",
+          "journey",
+          "public",
+          "train",
+          "taxi",
+          "driver",
+          "commute",
+          "transport",
+        ]
+    - label: "diy"
+      keywords: ["diy", "home", "garden", "delivery", "collect"]
+    - label: "pet"
+      keywords:
+        [
+          "aquascaping",
+          "aquarium",
+          "fish",
+          "cat",
+          "dog",
+          "pet",
+          "store",
+          "supplies",
+          "care",
+          "essentials",
+          "food",
+        ]
+    - label: "restaurant"
+      keywords:
+        [
+          "restaurants",
+          "deliver",
+          "takeway",
+          "food",
+          "eats",
+          "deliver",
+          "diner",
+          "pizza",
+          "cocktail",
+          "takeout",
+          "collection",
+          "fish",
+          "chips",
+          "chipper",
+          "experience",
+          "cuisine",
+        ]
+    - label: "fashion"
+      keywords:
+        [
+          "cycling",
+          "wear",
+          "materials",
+          "fashion",
+          "home",
+          "clothes",
+          "collections",
+        ]
+    - label: "car"
+      keywords: ["petrol", "insurance", "gas", "station", "oil"]
+    - label: "entertainment"
+      keywords:
+        [
+          "video",
+          "game",
+          "subscription",
+          "museum",
+          "art",
+          "artist",
+          "digital music",
+          "music",
+          "song",
+          "entertainment",
+        ]

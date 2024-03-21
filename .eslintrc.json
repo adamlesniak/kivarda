@@ -10,9 +10,7 @@
     "plugin:eslint-comments/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
-    "plugin:functional/lite",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "globals": { "BigInt": true, "console": true, "WebAssembly": true },
   "rules": {
@@ -21,6 +19,7 @@
       "error",
       { "allowWholeFile": true }
     ],
+    "functional/no-return-void": "off",
     "eslint-comments/no-unused-disable": "error",
     "import/order": [
       "error",
