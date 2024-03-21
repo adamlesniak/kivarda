@@ -1,6 +1,6 @@
 {
   "name": "kivarda",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse text block onto tokens, stemmed tokens and annotations.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
